@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+body {
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.color-gray {
+    color: #6a6a6a;
+}
+
+.no-line-height {
+    line-height: 0;
+}
+
+.yu-gothic {
+    font-family: YuGothic;
+}
+
+
+/* ヘッダー */
+
+header {
+    height: 120px;
+    width: 100%;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.logo {
+    width: 200px;
+    margin: 50px 20px;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* .header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    text-align: center;
+} */
+
+.main-nav {
+    display: flex; /* liタグを横並びにする */
+    list-style: none;
+    font-size: 18px;
+}
+
+.main-nav li {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:black;
+}
+
+.main-nav a {
+    text-decoration: none; /* リンク(a)の下線を消す */
+}
+
+.main-nav a:hover {
+    color: #9a8470;
+}
+
+.main-nav li:nth-child(8) {
+    margin-top: 0;
+    margin-right: 0;
+    height: 120px;
+    text-transform: uppercase; /* 全部大文字にする */
+    background-color: #1e212a;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    padding: 50px 30px;
+    
+}
+
+/* copyright */
+
+.copyright {
+    writing-mode: vertical-rl; /* 縦書き */
+    position: fixed;
+    font-size: 13px;
+    margin-left: 96%;
+    margin-top: 100px;
+}
+
+.copyright i {
+    margin: 10px 0;
+}
+
+/* top-wrapper */
+
+.top-wrapper {
+    width: 100%;   
+    padding-top: 120px;
+}
+
+.top-wrapper h1 {
+    font-size: 65px;
+    padding: 40px 10%;
+}
+
+.top-wrapper p {
+    font-size: 13px;
+    font-family: YuGothic;
+    width: 70%;
+    padding-left: 10%;
+    line-height: 2;
+}
+
+.top-img {
+    width: 90%;
+    margin: 30px 0;
+    margin-left: 10%;
+}
+
+.top-img img {
+    width: 100%;
+}
+
+
+
+/* 予約 */
+.reservation-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c9c9c9;
+}
+
+.reservation-wrapper p {
+    color: black;
+    text-align: center;
+}
+
+
+.reservation-message {
+    margin: 100px 0 20px 0;
+}
+
+.phone-number {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    font-size: 24px;
+}
+
+.phone-icon {
+    transform: rotate(90deg);
+}
+
+.reservation-wrapper a {
+    display: block;
+    text-align: center;
+}
+
+.reservation-covid {
+    font-size: 13px;
+    font-family: YuGothic;
+    margin: 30px 0 100px 0;
+}
+
+.reservation-btn {
+    background-color: #25313c;
+    padding: 30px 30px;
+    width: 400px;
+    margin: auto;
+}
+
+.reservation-btn p {
+    color: white;
+    text-transform: uppercase;
+}
+
+.reservation-btn:hover {
+    background-color: transparent;
+    border: solid 1px black;
+}
+
+.reservation-btn:hover p {
+    color: black;
+}
+
+
+
+
+/* footer */
+
+
+footer {
+    height: 100%;
+    background-color: #1e212a;
+    color: white;
+}
+
+.main-nav-footer a {
+    color: white;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo img {
+    margin-top: 60px;
+    width: 15%;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav li {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 70px;
+}
+
+
+.footer-contents {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: solid 1px gray;
+    width: 80%;
+    margin:auto;
+}
+
+.footer-photo img {
+    width: 100px;
+    padding: 30px 0;
+}
+
+.footer-text {
+    padding-left: 15px;
+}
+
+.footer-text p {
+    font-size: 11px;
+    line-height: 1.6;
+}
