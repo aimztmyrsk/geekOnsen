@@ -26,7 +26,7 @@
 /* トップ */
 
 .top-wrapper {
-    background-image: url(photo/apperance.jpeg);
+    background-image: url(apperance.jpeg);
     background-size: cover;
     height: 1000px;
     line-height: 1.5;
