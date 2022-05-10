@@ -1,0 +1,42 @@
+.main-nav li:nth-child(2) {
+    color: #9a8470;
+}
+
+.onsen-pattern {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+.onsen-title {
+    width: 50%;
+    font-size: 40px;
+}
+
+.onsen-detail {
+    width: 50%;
+    font-size: 13px;
+}
+
+.onsen-detail p {
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+.onsen-img {
+    display: flex;
+    width: 50%;
+    margin: 20px 0 100px 0;
+}
+
+.onsen-img img {
+    width: 100%;
+}
+
+.onsen-other {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
