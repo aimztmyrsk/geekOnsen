@@ -1,0 +1,122 @@
+.main-nav li:nth-child(5) {
+    color: #9a8470;
+}
+
+.info-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.info p {
+    font-size: 13px;
+    font-family: YuGothic;
+    line-height: 2;
+}
+
+.info-container h1 { 
+    font-size: 30px;
+    padding: 50px 0 10px 0;
+}
+
+.info-subtitle {
+    font-size: 16px;
+    font-family: YuGothic;
+    padding: 20px 0;
+    border-bottom: solid 1px #6a6a6a;
+    margin-bottom: 30px;
+}
+
+.info-facility {
+    display: flex;
+    line-height: 2;
+    margin-top: 30px;
+}
+
+.facility {
+    width: 50%;
+}
+
+
+.table-wrapper {
+    display: flex;
+    width: 40%;
+    margin-top: 30px;
+    font-size: 13px;
+    border: solid 1px #cac9c9;
+}
+
+.table-th {
+    background-color: #dadada;
+    width: 50%;
+  
+}
+
+.table-th p {
+    padding: 20px;
+    border-right: solid 1px #cac9c9;
+}
+
+.table-td {
+    width: 50%;
+}
+
+.table-td p {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.border-bottom {
+    border-bottom: solid 1px #cac9c9;
+}
+
+.charge-attention {
+    margin: 30px 0;
+}
+
+.cancel-policy {
+    margin: 30px 0;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.questions {
+    margin-bottom: 100px;
+}
+
+.questions p {
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+.question {
+    border-bottom: solid 1px #6a6a6a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fas {
+    color: #6a6a6a;
+    padding-right: 10px;
+    font-size: 10px;
+}
+
+.answer {
+    display: none;
+}
+
+.contact  {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    width: 15%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom: solid 2px black;
+    margin-bottom: 100px;
+}
