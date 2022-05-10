@@ -1,0 +1,153 @@
+.main-nav li:nth-child(1) {
+    color: #9a8470;
+}
+
+
+.top-wrapper {
+    width: 100%;   
+    padding-top: 120px;
+}
+
+.top-wrapper h1 {
+    font-size: 65px;
+    padding: 40px 10%;
+}
+
+.top-wrapper p {
+    font-size: 13px;
+    font-family: YuGothic;
+    width: 70%;
+    padding-left: 10%;
+    line-height: 2;
+}
+
+.top-img {
+    width: 90%;
+    margin: 30px 0;
+    margin-left: 10%;
+}
+
+.top-img img {
+    width: 100%;
+}
+
+
+/* map */
+
+.map-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;   
+    font-size: 13px;
+    line-height: 2;
+    padding-bottom: 100px;
+}
+
+.map-wrapper p {
+    padding: 30px 0;
+    font-family: YuGothic;
+}
+
+.map-img {
+    width: 70%;
+    padding: 15% 35%;
+    border: solid 1px black;
+    margin: auto;
+}
+
+.view-container {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 16px;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.view-data {
+    border-bottom: solid 1px black;
+    border-style: dotted;
+    padding: 20px 30px 0px 0px;
+}
+
+
+.lake-side-view-wrapper {
+    width: 100%;
+}
+
+.view-img {
+    display: flex;
+    justify-content: center;
+}
+
+.view-img img {
+    width: 33%;
+    margin: 30px 1px;
+}
+
+.view-details {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    line-height: 2;
+}
+
+.view-text {
+    width: 60%;
+    font-size: 13px;
+    font-family: YuGothic;
+}
+
+.view-text h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: serif;
+}
+
+
+.view-detail {
+    width: 30%;
+    font-size: 13px;
+    line-height: 3;
+}
+
+.view-reserv {
+    text-transform: uppercase;
+    padding-top: 20px;
+    text-align: right;
+    font-size: 16px;
+}
+
+
+.amenity-wrapper {
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.amenity-content {
+    margin: 60px 0;
+}
+
+.amenity-wrapper h2 {
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #6a6a6a;
+}
+
+.amenity-wrapper p {
+    font-size: 13px;
+    margin: 20px 0;
+    line-height: 2;
+}
+
+.amenity-other {
+    text-align: right;
+    padding-top: 50px;
+}
